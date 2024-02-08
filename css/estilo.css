@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2? family= Inter & display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    display: flex;
+    background: hsl(0, 0%, 8%);
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.cartao_principal {
+    display: flex;
+    margin: 200px;
+    flex-flow: column;
+    background: hsl(0, 0%, 12%);
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 350px;
+    height: 550px;
+}
+
+.img_perfil {
+    margin-top: 40px;
+}
+
+.img_perfil {
+    width: 150px;
+    border-radius: 100px;
+}
+
+.cartao_principal h1 {
+    font-size: 30px;
+}
+
+.cartao_principal .localidade {
+    color: hsl(75, 94%, 57%);
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+.links {
+    display: flex;
+    flex-flow: column;
+    margin: 30px 50px 30px 50px;
+    width: 300px;
+}
+
+.links a {
+    background: hsl(0, 0%, 20%);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none;
+    color: white;
+    transition: all .2s ease-in;
+}
+
+.links a:hover{
+    background: hsl(0, 0%, 8%);
+}
